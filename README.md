@@ -34,7 +34,7 @@ A user-friendly shopping cart will allow users to:
 -Safely check out
 
 ### Scheduling System
-Komal's baking schedule will:
+The baking schedule will:
 - Inform customers of the best times to pick up their orders
 - Guarantee prompt delivery and freshness
 
