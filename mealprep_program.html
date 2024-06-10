@@ -24,8 +24,53 @@
     </header>
     <main>
         <h1>Meal Prep Program</h1>
+<<<<<<< Updated upstream
         <p>Join our meal prep program and enjoy healthy meals delivered to your door.</p>
         <!-- Add meal prep program details here -->
+=======
+        <p>Join our overnight oats meal prep program and enjoy healthy breakfasts delivered to your door or pickup on your way to work!.</p>
+        <section>
+            <h1>Sign Up for Our Overnight Oats Meal Prep Program</h1>
+        </header>
+        <main>
+            <img src="images/overnight_oats.jpg" alt="Overnight Oats" width="500">
+            <form action="submit_form.php" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+            
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Order Information</legend>
+                    <label>Delivery or Pickup:</label><br>
+                    <input type="radio" id="delivery" name="order_type" value="delivery" required>
+                    <label for="delivery">Delivery</label><br>
+                    <input type="radio" id="pickup" name="order_type" value="pickup" required>
+                    <label for="pickup">Pickup</label><br><br>
+            
+                    <label for="address">Address:</label><br>
+                    <input type="text" id="address" name="address" placeholder="Enter your address" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Meal Preferences</legend>
+                    <label for="flavor">Preferred Oat Flavor:</label>
+                    <select id="flavor" name="flavor" required>
+                        <option value="classic">Classic</option>
+                        <option value="chocolate">Chocolate</option>
+                        <option value="berry">Berry</option>
+                        <option value="nut_butter">Nut Butter</option>
+                        <option value="apple_cinnamon">Apple Cinnamon</option>
+                    </select><br><br>
+            
+                    <label for="comments">Additional Comments or Dietary Restrictions:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+                </fieldset>
+                <button type="submit">Sign Up</button>
+            </form>
+>>>>>>> Stashed changes
     </main>
     <footer>
         <div class="footer">

@@ -23,8 +23,46 @@
         </nav>
     </header>
     <main>
+<<<<<<< Updated upstream
         <h1>Order Now</h1>
         <p>Place your order for our delicious and healthy baked goods.</p>
+=======
+        <h1>Order Now - Mobile Pickup</h1>
+        <p>Place your order for mobile pickup of our delicious and healthy baked goods.</p>
+        <form action="submit_order.php" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="pickup_date">Preferred Pickup Date:</label>
+            <input type="date" id="pickup_date" name="pickup_date" required><br><br>
+            
+            <label for="pickup_time">Preferred Pickup Time:</label>
+            <input type="time" id="pickup_time" name="pickup_time" required><br><br>
+            
+            <label for="product">Select Product:</label>
+            <select id="product" name="product" required>
+                <option value="Butter Croissant">Butter Croissant</option>
+                <option value="Chocolate Chip Cookie">Chocolate Chip Cookie</option>
+                <option value="Apple Pie">Apple Pie</option>
+                <option value="Brownie">Brownie</option>
+                <option value="Cupcake">Cupcakes</option>
+            </select><br><br>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" required><br><br>
+            
+            <label for="additional_info">Additional Information:</label><br>
+            <textarea id="additional_info" name="additional_info" rows="4" cols="50"></textarea><br><br>
+            
+            <button type="submit">Submit Order</button>
+        </form>
+>>>>>>> Stashed changes
         
     </main>
     <footer>
