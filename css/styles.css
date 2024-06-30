@@ -1,0 +1,130 @@
+body, h1, p, a, button, label, input, table, th, td {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: #fff;
+}
+
+.navbar a {
+    color: #333;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff85a2;
+}
+
+.navbar .logo {
+    height: 40px;
+}
+
+main {
+    text-align: center;
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ff85a2;
+}
+
+.cart {
+    margin: 2em auto;
+    width: 80%;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+.cart th, .cart td {
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart th {
+    background-color: #fbe4e8;
+    color: #6e3d4f;
+}
+
+.cart input[type="number"] {
+    width: 50px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cart-total {
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.cart-total p {
+    margin-bottom: 1em;
+}
+
+.cart-total .checkout {
+    background-color: #b03e5f; 
+    color: #fff;
+    border: none;
+    padding: 0.5em 2em;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-total .checkout:hover {
+    background-color: #902c47; 
+}
