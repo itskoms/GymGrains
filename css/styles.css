@@ -126,6 +126,33 @@ footer ul li {
     background-color: #902c47; 
 }
 
+header {
+    height: 60px; /* Adjust as per your header/navbar height */
+}
+
+header {
+    height: 60px; /* Adjust as per your header/navbar height */
+}
+
+#promotion-bar {
+    background-color: #f5719d; /* Pink color */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px; /* Add space below header */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#promotion-bar:hover {
+    background-color: #f73a86; /* Dark pink on hover */
+}
+
+#promotion-bar p {
+    color: #ffffff; /* Grey color for regular text */
+}
+
 /* iPad Pro view */
 @media (max-width: 768px) {
     .navbar {
