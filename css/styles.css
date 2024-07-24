@@ -127,37 +127,37 @@ footer ul li {
 }
 
 header {
-    height: 60px; /* Adjust as per your header/navbar height */
+    height: 60px; 
 }
 
 header {
-    height: 60px; /* Adjust as per your header/navbar height */
+    height: 60px;
 }
 
 #promotion-bar {
-    background-color: #f5719d; /* Pink color */
+    background-color: #f5719d; 
     color: #ffffff;
     text-align: center;
     padding: 10px;
     font-size: 16px;
-    margin-top: 10px; /* Add space below header */
+    margin-top: 10px; 
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 #promotion-bar:hover {
-    background-color: #f73a86; /* Dark pink on hover */
+    background-color: #f73a86;
 }
 
 #promotion-bar p {
-    color: #ffffff; /* Grey color for regular text */
+    color: #ffffff; 
 }
 
 .notification {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #c6007a; /* Green */
+    background-color: #c6007a; 
     color: white;
     padding: 15px;
     border-radius: 5px;
@@ -206,7 +206,7 @@ header {
 }
 
 .order-now-button {
-    background-color: #ffffff; /* White */
+    background-color: #ffffff; 
     color: #d20093; 
     border: none;
     padding: 10px 20px;
@@ -217,7 +217,7 @@ header {
 
 .order-now-button:hover {
     background-color: #fdb2ed; 
-    color: #ffffff; /* White */
+    color: #ffffff; 
 }
 
 .close-popup-button {
@@ -232,8 +232,38 @@ header {
 }
 
 .close-popup-button:hover {
-    color: #000000; /* Black */
+    color: #000000; 
 }
+
+.message-container {
+    position: relative; 
+    background-color: #fdb2ed;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    text-align: center;
+    display: none; 
+    margin-top: 20px; 
+}
+
+.message-container p {
+    margin: 0 0 10px;
+}
+
+.message-container button {
+    background-color: #d20093;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-container button:hover {
+    background-color: #b1007c;
+}
+
 
 
 /* iPad Pro view */
