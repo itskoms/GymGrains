@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Gym Grains Bakery</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
     <header>
@@ -28,73 +28,50 @@
                 <img src="images/brownie.jpg" alt="Brownies" width="500">
                 <p>Delicious, rich chocolate brownies.</p>
                 <p class="price">$5.00</p>
-                <form action="add_to_cart.php" method="post">
-                    <input type="hidden" name="product_name" value="Brownies">
-                    <input type="hidden" name="product_price" value="5.00">
-                    <button type="submit">Add to Cart</button>
-                </form>
+                <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-item">
                 <img src="images/butter_croissant.jpg" alt="Butter Croissant" width="500">
                 <p>Flaky, buttery croissants.</p>
                 <p class="price">$4.00</p>
-                <form action="add_to_cart.php" method="post">
-                    <input type="hidden" name="product_name" value="Butter Croissant" width="500">
-                    <input type="hidden" name="product_price" value="4.00">
-                    <button type="submit">Add to Cart</button>
-                </form>
+                <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-item">
                 <img src="images/overnight_oats.jpg" alt="Overnight Oats" width="500">
                 <p>Healthy and nutritious overnight oats.</p>
                 <p class="price">$3.00</p>
-                <form action="add_to_cart.php" method="post">
-                    <input type="hidden" name="product_name" value="Overnight Oats">
-                    <input type="hidden" name="product_price" value="3.00">
-                    <button type="submit">Add to Cart</button>
-                </form>
+                <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-item">
                 <img src="images/applepie.jpg" alt="Apple Pie" width="500">
                 <p>Classic apple pie with a flaky crust.</p>
                 <p class="price">$6.00</p>
-                <form action="add_to_cart.php" method="post">
-                    <input type="hidden" name="product_name" value="Apple Pie">
-                    <input type="hidden" name="product_price" value="6.00">
-                    <button type="submit">Add to Cart</button>
-                </form>
+                <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-item">
                 <img src="images/chocolate_chip_cookies.jpg" alt="Chocolate Chip Cookies" width="500">
                 <p>Chewy chocolate chip cookies.</p>
                 <p class="price">$4.00</p>
-                <form action="add_to_cart.php" method="post">
-                    <input type="hidden" name="product_name" value="Chocolate Chip Cookies">
-                    <input type="hidden" name="product_price" value="4.00">
-                    <button type="submit">Add to Cart</button>
-                </form>
+                <button class="add-to-cart">Add to Cart</button>
             </div>
             <div class="product-item">
                 <img src="images/cupcakes.jpg" alt="Cupcakes" width="500">
                 <p>Delicious cupcakes with creamy frosting.</p>
                 <p class="price">$3.50</p>
-                <form action="add_to_cart.php" method="post">
-                    <input type="hidden" name="product_name" value="Cupcakes">
-                    <input type="hidden" name="product_price" value="3.50">
-                    <button type="submit">Add to Cart</button>
-                </form>
+                <button class="add-to-cart">Add to Cart</button>
             </div>
         </div>
     </main>
     <footer>
         <ul class="footer">
-            <li>><a href="products.html">Products</a><br></li>
-            <li>><a href="order_now.html">Order Now</a><br></li>
-            <li>><a href="mealprep_program.html">Meal Prep</a><br></li>
-            <li>><a href="about_us.html">About Us</a><br></li>
-            <li>><a href="contact_us.html">Contact Us</a><br></li>
-            <li>><a href="sign_in.html">Sign In</a></li>
+            <li><a href="products.html">Products</a><br></li>
+            <li><a href="order_now.html">Order Now</a><br></li>
+            <li><a href="mealprep_program.html">Meal Prep</a><br></li>
+            <li><a href="about_us.html">About Us</a><br></li>
+            <li><a href="contact_us.html">Contact Us</a><br></li>
+            <li><a href="sign_in.html">Sign In</a></li>
         </ul>
     </footer>
+    <script src="js/products.js"></script> 
 </body>
 </html>

@@ -153,6 +153,89 @@ header {
     color: #ffffff; /* Grey color for regular text */
 }
 
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c6007a; /* Green */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1000;
+}
+
+.notification.show {
+    opacity: 1;
+}
+
+.notification .view-cart {
+    color: #ffffff;
+    text-decoration: underline;
+    margin-top: 5px;
+    display: block;
+}
+
+.order-now-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d20093; 
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.order-now-popup.show {
+    opacity: 1;
+}
+
+.order-now-message {
+    margin-top: 10px;
+    margin-bottom: px;
+}
+
+.order-now-button {
+    background-color: #ffffff; /* White */
+    color: #d20093; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.order-now-button:hover {
+    background-color: #fdb2ed; 
+    color: #ffffff; /* White */
+}
+
+.close-popup-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+}
+
+.close-popup-button:hover {
+    color: #000000; /* Black */
+}
+
+
 /* iPad Pro view */
 @media (max-width: 768px) {
     .navbar {
