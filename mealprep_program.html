@@ -26,10 +26,8 @@
         <p>Join our overnight oats meal prep program and enjoy healthy breakfasts delivered to your door or pickup on your way to work!.</p>
         <section>
             <h1>Sign Up for Our Overnight Oats Meal Prep Program</h1>
-        </header>
-        <main>
             <img src="images/overnight_oats.jpg" alt="Overnight Oats" width="500">
-            <form action="submit_form.php" method="post">
+            <form id="signupForm">
                 <fieldset>
                     <legend>Personal Information</legend>
                     <label for="name">Full Name:</label>
@@ -65,16 +63,19 @@
                 </fieldset>
                 <button type="submit">Sign Up</button>
             </form>
+            <div id="notification" class="notification" style="display: none;"></div>
+        </section>
     </main>
     <footer>
         <ul class="footer">
-            <li>><a href="products.html">Products</a><br></li>
-            <li>><a href="order_now.html">Order Now</a><br></li>
-            <li>><a href="mealprep_program.html">Meal Prep</a><br></li>
-            <li>><a href="about_us.html">About Us</a><br></li>
-            <li>><a href="contact_us.html">Contact Us</a><br></li>
-            <li>><a href="sign_in.html">Sign In</a></li>
+            <li><a href="products.html">Products</a><br></li>
+            <li><a href="order_now.html">Order Now</a><br></li>
+            <li><a href="mealprep_program.html">Meal Prep</a><br></li>
+            <li><a href="about_us.html">About Us</a><br></li>
+            <li><a href="contact_us.html">Contact Us</a><br></li>
+            <li><a href="sign_in.html">Sign In</a></li>
         </ul>
     </footer>
+    <script src="js/mealprep_program.js"></script>
 </body>
 </html>
